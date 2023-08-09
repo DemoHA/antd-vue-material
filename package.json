@@ -1,0 +1,52 @@
+{
+  "name": "lowcode-material-ant-vue",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vue-cli-service lowcode:dev",
+    "build": "vue-cli-service lowcode:build"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@alilc/lowcode-types": "^1.1.8",
+    "@ant-design/icons-vue": "^6.1.0",
+    "@vueuse/core": "^10.2.1",
+    "ant-design-vue": "3.2.20",
+    "core-js": "^3.31.1",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@knxcloud/vue-cli-plugin-lowcode": "^1.0.4",
+    "@rushstack/eslint-patch": "^1.3.2",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-plugin-typescript": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "@vue/tsconfig": "^0.1.3",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.15.1",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.3",
+    "postcss": "^8.4.27",
+    "postcss-html": "^1.5.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.64.1",
+    "sass-loader": "^13.3.2",
+    "stylelint": "^14.11.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended-scss": "^7.0.0",
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-config-standard": "^28.0.0",
+    "typescript": "~4.8.3",
+    "webpack": "^5.88.2"
+  }
+}

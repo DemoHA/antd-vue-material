@@ -1,0 +1,8 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "compilerOptions": {
+    "types": ["webpack-env"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "typings/*.d.ts"],
+  "exclude": ["dist", "node_modules"]
+}
