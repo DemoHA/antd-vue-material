@@ -22,12 +22,13 @@
 }
 .table-query-container .ant-table-body {
   border-bottom: 1px solid #ebeef5;
-  background: linear-gradient(#fff 50%, #f8f8f8 0);
-  background-size: 100% 50px;
   overflow-y: auto !important;
 }
 .table-query-container .ant-table-body tr{
-  background-color: transparent;
+  background-color: #fff;
+}
+.table-query-container .ant-table-body tr:nth-child(odd) td {
+  background-color: #f8f8f8;
 }
 .table-query-container .ant-table-pagination.ant-pagination .ant-pagination-item-active{
   background:#d1f4ff ;

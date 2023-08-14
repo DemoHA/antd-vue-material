@@ -25,3 +25,5 @@ export * from './searchBar';
 export * from './divider';
 export * from './gridRow';
 export * from './gridCol';
+export * from './space';
+export * from './affix';
