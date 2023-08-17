@@ -27,3 +27,5 @@ export * from './gridRow';
 export * from './gridCol';
 export * from './space';
 export * from './affix';
+export * from './breadcrumb';
+export * from './menu';

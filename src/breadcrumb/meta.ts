@@ -97,7 +97,7 @@ export default {
             label: '自定义渲染',
             tip: 'itemRender | 自定义渲染',
           },
-          propType: { type: 'oneOfType', value: ['func', 'node'] },
+          propType: { type: 'oneOfType', value: ['node', 'func'] },
           setter: [
             {
               componentName: 'SlotSetter',
@@ -152,18 +152,18 @@ export default {
           ],
           itemRender: {
             type: 'JSSlot',
-            params: ['route', 'params', 'routes', 'paths'],
+            params: ['scope'],
             value: [
               {
-                componentName: 'ATypographyLink',
+                componentName: 'ATypographyText',
                 props: {
                   href: {
                     type: 'JSExpression',
-                    value: 'this.route.path',
+                    value: 'this.scope.route.path',
                   },
                   children: {
                     type: 'JSExpression',
-                    value: 'this.route.breadcrumbName',
+                    value: 'this.scope.route.breadcrumbName',
                   },
                 },
               },
